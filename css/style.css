@@ -102,3 +102,20 @@ p {
 .item img{
   width: 100%;
 }
+
+/* Styling for the video and its explanation */
+.video-container {
+  text-align: center; /* Center the content within the container */
+  margin: 0 auto; /* Center the container itself horizontally */
+}
+
+video {
+  max-width: 100%; /* Ensure the video is responsive */
+  height: auto;
+}
+
+.explanation {
+  margin-top: 10px; /* Space between video and explanation */
+  font-size: 16px; /* Adjust font size as needed */
+  color: #ffffff; /* Text color */
+}
