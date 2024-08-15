@@ -2,7 +2,7 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem 2rem;
-  background-color: #ffffff;
+  background-color: #2b2a33 ;
 }
 
 /* Banner image*/
@@ -44,23 +44,23 @@ nav li a{
 }
 
 nav li:hover{
-  background-color: orangered;
+  background-color: #58bbc0;
 }
 
 nav #active{
-  background-color: darkgreen;
+  background-color: #bfbb6a;
 }
 
 /* Styling for the main section*/
 /* This is the line between the main section and footer */
 main{
   border-bottom: 3px solid;
-  color: black;
+  color: white;
 }
 
 /* H1 uses a google font. Check out https://www.w3schools.com/howto/howto_google_fonts.asp to change - also see line 9 in your html page*/
 h1 {
-  color: darkblue;
+  color: #dbdbdb;
   font-family: 'Caesar Dressing';
   font-size: 60px;
   text-align: center;
@@ -68,13 +68,13 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: #dbdbdb;
   font-size: 30px;
   text-align: center;
 }
 
 p {
-  color: black;
+  color: #dbdbdb;
   font-size: 14px;
   text-align: center;
 }
@@ -89,7 +89,7 @@ p {
 
 /*Items for all the screenshots and pictures of your stuff*/
 .item{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgb(191, 187, 106,0.2);
   width: 20%;
   min-width: 8rem;
   margin: 0.5rem;
@@ -117,5 +117,5 @@ video {
 .explanation {
   margin-top: 10px; /* Space between video and explanation */
   font-size: 16px; /* Adjust font size as needed */
-  color: #ffffff; /* Text color */
+  color: #dbdbdb; /* Text color */
 }
