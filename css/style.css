@@ -119,3 +119,25 @@ video {
   font-size: 16px; /* Adjust font size as needed */
   color: #dbdbdb; /* Text color */
 }
+
+/* Container for the embedded game with a responsive aspect ratio */
+.game-container {
+  position: relative;
+  width: 100%; /* Full width of its parent */
+  padding-top: 56.25%; /* Aspect ratio for 16:9 */
+  overflow: hidden;
+  background-color: #000; /* Optional background color for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style for the embedded game to fill the container */
+.game-container iframe,
+.game-container object,
+.game-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; /* Remove border if needed */
+}
