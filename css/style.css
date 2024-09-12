@@ -141,3 +141,7 @@ video {
   height: 100%;
   border: 0; /* Remove border if needed */
 }
+
+a {
+    color: #ff0000; /* Change this to your preferred color */
+}
